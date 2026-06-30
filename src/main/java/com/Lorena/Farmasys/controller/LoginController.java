@@ -14,8 +14,6 @@ public class LoginController {
 
     private final FarmaceuticoService service = new FarmaceuticoService();
 
-    // Tela de login: index.jsp foi movido para WEB-INF/pages/ e passa a ser
-    // servido por este controlador na raiz da aplicacao.
     @GetMapping("/")
     public String exibirLogin() {
         return "index";

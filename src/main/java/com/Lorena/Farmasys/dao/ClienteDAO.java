@@ -31,6 +31,7 @@ public class ClienteDAO {
 
     public List<Cliente> listar() {
         String sql = "SELECT * FROM cliente ORDER BY nome";
+        System.out.println("Teste certo");
         List<Cliente> lista = new ArrayList<>();
         try (Connection con = ConexaoDB.getConexao();
              PreparedStatement ps = con.prepareStatement(sql);
