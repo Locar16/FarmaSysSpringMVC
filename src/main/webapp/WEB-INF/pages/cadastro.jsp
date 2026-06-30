@@ -88,7 +88,7 @@
 
     <div class="form-acoes">
         <button type="submit" class="btn btn-primario">Cadastrar</button>
-        <a href="${pageContext.request.contextPath}/index.jsp" class="btn btn-secundario">Voltar</a>
+        <a href="${pageContext.request.contextPath}/" class="btn btn-secundario">Voltar</a>
     </div>
 </form>
 

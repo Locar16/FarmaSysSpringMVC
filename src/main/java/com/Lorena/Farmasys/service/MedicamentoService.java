@@ -1,7 +1,7 @@
 package com.Lorena.Farmasys.service;
 
-import dao.MedicamentoDAO;
-import model.Medicamento;
+import com.Lorena.Farmasys.dao.MedicamentoDAO;
+import com.Lorena.Farmasys.model.Medicamento;
 
 import java.math.BigDecimal;
 import java.util.List;

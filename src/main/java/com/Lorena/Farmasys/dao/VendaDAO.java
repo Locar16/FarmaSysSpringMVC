@@ -1,7 +1,7 @@
 package com.Lorena.Farmasys.dao;
 
-import model.ItemVenda;
-import model.Venda;
+import com.Lorena.Farmasys.model.ItemVenda;
+import com.Lorena.Farmasys.model.Venda;
 
 import java.sql.*;
 import java.time.LocalDateTime;

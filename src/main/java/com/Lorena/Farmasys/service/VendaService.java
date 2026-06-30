@@ -1,11 +1,11 @@
 package com.Lorena.Farmasys.service;
 
-import dao.MedicamentoDAO;
-import dao.VendaDAO;
-import model.Farmaceutico;
-import model.ItemVenda;
-import model.Medicamento;
-import model.Venda;
+import com.Lorena.Farmasys.dao.MedicamentoDAO;
+import com.Lorena.Farmasys.dao.VendaDAO;
+import com.Lorena.Farmasys.model.Farmaceutico;
+import com.Lorena.Farmasys.model.ItemVenda;
+import com.Lorena.Farmasys.model.Medicamento;
+import com.Lorena.Farmasys.model.Venda;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

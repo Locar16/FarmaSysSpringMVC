@@ -1,6 +1,6 @@
 package com.Lorena.Farmasys.dao;
 
-import model.Medicamento;
+import com.Lorena.Farmasys.model.Medicamento;
 
 import java.sql.*;
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
 package com.Lorena.Farmasys.dao;
 
-import model.Farmaceutico;
+import com.Lorena.Farmasys.model.Farmaceutico;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

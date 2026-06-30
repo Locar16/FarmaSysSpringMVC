@@ -1,7 +1,7 @@
 package com.Lorena.Farmasys.service;
 
-import dao.FarmaceuticoDAO;
-import model.Farmaceutico;
+import com.Lorena.Farmasys.dao.FarmaceuticoDAO;
+import com.Lorena.Farmasys.model.Farmaceutico;
 
 import java.sql.SQLException;
 import java.util.List;
