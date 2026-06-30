@@ -16,7 +16,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Controller
-@RequestMapping({"/medicamento", "/medicamentos"})
+@RequestMapping("/medicamento")
 public class MedicamentoController {
 
     private static final List<String> CLASSIFICACOES = List.of(
