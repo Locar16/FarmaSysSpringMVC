@@ -1,0 +1,106 @@
+/* venda.css */
+
+.form-venda {
+    background: var(--branco);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-adicionar {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.form-adicionar .form-group {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 0;
+}
+
+.form-adicionar .form-group-qtd {
+    flex: 0 0 120px;
+    min-width: 0;
+}
+
+.separador {
+    border: none;
+    border-top: 2px solid var(--cinza-borda);
+    margin: 1.5rem 0;
+}
+
+.sem-registros {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    background: var(--branco);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.btn-sm {
+    padding: .25rem .65rem;
+    font-size: .85rem;
+}
+
+.total-row td {
+    font-weight: 700;
+    background-color: #f0f4f9;
+    border-top: 2px solid var(--cinza-borda);
+}
+
+.form-finalizar {
+    background: var(--branco);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.form-finalizar .form-group {
+    flex: 0 0 220px;
+    margin-bottom: 0;
+}
+
+.link-historico {
+    margin: 1.5rem 0;
+}
+
+/* ── Tabela de vendas realizadas ── */
+.tabela-vendas .itens-venda {
+    min-width: 180px;
+}
+
+.item-linha {
+    font-size: .88rem;
+    padding: .15rem 0;
+    border-bottom: 1px solid var(--cinza-borda);
+}
+
+.item-linha:last-child {
+    border-bottom: none;
+}
+
+.total-venda {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .form-adicionar,
+    .form-finalizar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-adicionar .form-group-qtd,
+    .form-finalizar .form-group {
+        flex: 1;
+    }
+}

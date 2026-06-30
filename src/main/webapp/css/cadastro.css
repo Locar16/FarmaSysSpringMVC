@@ -1,0 +1,27 @@
+/* cadastro.css */
+
+.form-cadastro {
+    background: var(--branco);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    margin-bottom: 2rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1.5rem;
+}
+
+.form-acoes {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: .75rem;
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}

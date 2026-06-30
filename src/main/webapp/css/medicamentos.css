@@ -1,0 +1,51 @@
+/* medicamentos.css */
+
+.form-medicamento {
+    background: var(--branco);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    margin-bottom: 2rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1.5rem;
+}
+
+.form-acoes {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: .75rem;
+}
+
+.separador {
+    border: none;
+    border-top: 2px solid var(--cinza-borda);
+    margin: 2rem 0;
+}
+
+.sem-registros {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+    background: var(--branco);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.acoes {
+    white-space: nowrap;
+}
+
+.btn-sm {
+    padding: .3rem .75rem;
+    font-size: .85rem;
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}

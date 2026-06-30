@@ -1,0 +1,9 @@
+/* footer.css — estilos específicos do rodapé */
+
+.site-footer {
+    background-color: #1a4e8a;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    padding: .75rem 1rem;
+    font-size: .85rem;
+}
